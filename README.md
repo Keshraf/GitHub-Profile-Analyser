@@ -1,5 +1,6 @@
 # GitHub-Profile-Analyser
 Submission of Open Source Challenge - SlingShot
+
 Option to compare would be added in the near future.
 
 ## Tech Stack
