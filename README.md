@@ -24,3 +24,5 @@ In simple words, you have to develop a Github Profile Analyser, Where user can s
 ![Main - Page](https://user-images.githubusercontent.com/82109991/135907932-0824e823-7160-4289-8a31-4b7fe72add0e.png)
 
 ### Video Link
+
+[Click Here](https://youtu.be/5l2pt7fMX4c)
