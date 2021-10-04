@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub - Profile Analyser</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo-container"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" height="48" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="48" data-view-component="true" class="octicon octicon-mark-github" id="logo">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" fill="#C9D1D9"></path>
+        </svg></div>
+    </header>
+    <main>
+        <div class="top">
+            <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-list-unordered">
+                <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z" fill="#8B949E"></path>
+            </svg>
+            <h4>Profile</h4>
+        </div>
+        <hr class="top-hr">
+        <div id="user-content">
+        <h1>GitHub - Profile Analyser</h1>
+        <hr>
+        <p>Submission of Open Source Challenge - SlingShot</p>
+        <h2 id="name-heading">Username #1</h2>
+        <hr>
+        <div class="user-info">
+            <p>Followers: <span id="follower-info">10</span> <br>
+                Following: <span id="following-info">17</span> <br>
+                Stars: <span id="stars-info">5</span> <br>
+                Repositories: <span id="repo-info">11</span> <br>
+                Most Used Language: <span id="lang-info">CSS</span> <br>
+                Joined GitHub: <span id="joined-info">2021-04-07</span><br>
+                Pull Requests: <span id="pr-info">8</span><br>
+                <a href="" id="profile-link" target="_blank">GitHub Profile Link</a></p>
+            <img src="" alt="" id="profile-image">
+        </div>
+        <hr>
+        <h3>Languages Used:</h3>
+        <div class="canvas-container">
+        <canvas id="lang-chart"></canvas>
+        </div>
+        <h3>Stars per Repository:</h3>
+        <div class="canvas-container">
+        <canvas id="stars-chart"></canvas>
+        </div>
+        <h3>Commits per Respository:</h3>
+        <div class="canvas-container"><canvas id="commits-chart"></canvas></div>
+        
+    </div>
+        <div class="comparison-box">
+                <h2>Comparisons</h2>
+                <hr>
+                <ul class="index">
+                    <li class="index-item">1. Pull Requests</li>
+                    <li class="index-item">2. Stars</li>
+                    <li class="index-item">3. Commits</li>
+                    <li class="index-item">4. Languages Used</li>
+                </ul>
+                <h3>Test:</h3>
+                <canvas id="test-chart"></canvas>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+    </main>
+    
+</body>
+</html>
